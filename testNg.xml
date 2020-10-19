@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="mySuit">
+    <test name="test1">
+        <classes>
+            <class name="LoginTest"></class>
+        </classes>
+    </test>
+    <listeners>
+
+        <listener class-name="com.api.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
