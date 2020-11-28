@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00dbed1b-47f7-4d17-ad5e-ae07573fe7ee" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/study/AppiumDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/study/InitDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/study/KuaiShouDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/study/MobileBroswerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/study/PingduoduoDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/study/SeleniumDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/study/WeChatDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/utils/AppiumUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/douban.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/property/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/services/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/services/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/study/MySecondDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/study/MyThirdDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/utils/HttpClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/utils/HttpClientUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/property/login.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/property/login.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/clientlog/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/clientlog/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,8 +23,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+            <state relative-caret-position="2350">
+              <caret line="116" column="63" selection-start-line="116" selection-start-column="63" selection-end-line="116" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -142,6 +126,7 @@
       <find>test.log</find>
       <find>org.slf4j.impl.StaticLoggerBinder</find>
       <find>sl</find>
+      <find>surefire</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -202,7 +187,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-12" />
     <option name="width" value="1938" />
     <option name="height" value="1032" />
@@ -297,6 +282,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest1001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest1001" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -557,7 +547,7 @@
       <workItem from="1605922755522" duration="1683000" />
       <workItem from="1606528656104" duration="1097000" />
       <workItem from="1606530266038" duration="579000" />
-      <workItem from="1606531250354" duration="5419000" />
+      <workItem from="1606531250354" duration="8883000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1603106239397</created>
@@ -566,7 +556,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603106239397</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1606547110875</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606547110875</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test">
+      <created>1606547565818</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606547565818</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -602,10 +606,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175834000" />
+    <option name="totallyTimeSpent" value="179298000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1292" height="688" extended-state="1" />
+    <frame x="-8" y="0" width="1292" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -617,19 +622,19 @@
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.39564428" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.33756804" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.33756804" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.32849365" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32849365" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.29945552" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.80273974" visible="true" weight="0.22528364" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.8134715" visible="true" weight="0.22528364" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info id="Favorites" order="3" sideWeight="0.19726028" side_tool="true" visible="true" weight="0.22528364" />
+      <window_info id="Favorites" order="3" sideWeight="0.1865285" side_tool="true" visible="true" weight="0.22528364" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39818183" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
@@ -1062,13 +1067,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/api/utils/HttpClientUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="103" column="39" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/api/services/LoginService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1086,10 +1084,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/api/utils/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="103" column="39" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+        <state relative-caret-position="2350">
+          <caret line="116" column="63" selection-start-line="116" selection-start-column="63" selection-end-line="116" selection-end-column="63" />
         </state>
       </provider>
     </entry>

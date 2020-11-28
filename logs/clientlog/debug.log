@@ -14,3 +14,8 @@
 [mtxapi] 2020/11/28 12:33:30   INFO main com.api.utils.HttpClientUtil:55 - {accounts=xiachao, pwd=123456} 
 [mtxapi] 2020/11/28 12:33:30   INFO main com.api.utils.HttpClientUtil:77 - {"msg":"登录成功","code":0,"data":{"body_html":""}} 
 [mtxapi] 2020/11/28 12:33:30   INFO main LoginTest:17 - 0 
+[mtxapi] 2020/11/28 14:57:23   INFO main com.api.utils.HttpClientUtil:53 - http://121.42.15.146:9090//mtx/index.php?s=/index/user/login.html 
+[mtxapi] 2020/11/28 14:57:23   INFO main com.api.utils.HttpClientUtil:54 - {X-Requested-With=XMLHttpRequest} 
+[mtxapi] 2020/11/28 14:57:23   INFO main com.api.utils.HttpClientUtil:55 - {accounts=xiachao, pwd=123456} 
+[mtxapi] 2020/11/28 14:57:23   INFO main com.api.utils.HttpClientUtil:77 - {"msg":"登录成功","code":0,"data":{"body_html":""}} 
+[mtxapi] 2020/11/28 14:57:23   INFO main LoginTest:17 - 0 
