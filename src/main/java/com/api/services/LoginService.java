@@ -12,9 +12,7 @@ public class LoginService extends BaseService{
         paramMap.put("accounts",account);
         paramMap.put("pwd",pwd);
         String url=myHost+mtx_loginUrl;
-        System.out.println(url);
         String result = HttpClientUtil.postForm(url, paramMap, heads);
-        System.out.println(result);
         return result;
     }
 }

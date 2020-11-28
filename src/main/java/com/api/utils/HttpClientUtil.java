@@ -14,6 +14,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -22,11 +23,14 @@ import java.util.List;
 import java.util.Map;
 
 public class HttpClientUtil {
+    private static Logger logger = Logger.getLogger(HttpClientUtil.class);
     public static HttpClient client;
     static{
         client=HttpClients.createDefault();
     }
     public static String get(String url,Map<String,String> heads){
+        logger.info(url);
+        logger.info(heads);
         String result = null;
         HttpGet httpGet = new HttpGet(url);
         if(!heads.isEmpty()){
@@ -38,6 +42,7 @@ public class HttpClientUtil {
             HttpResponse response = client.execute(httpGet);
             HttpEntity entity = response.getEntity();
             result = EntityUtils.toString(entity,"utf-8");
+            logger.info(result);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -45,6 +50,9 @@ public class HttpClientUtil {
     }
 
     public static String postForm(String url, Map<String,Object> params,Map<String,String> heads){
+        logger.info(url);
+        logger.info(heads);
+        logger.info(params);
         String result=null;
         HttpPost httpPost = new HttpPost(url);
         List<BasicNameValuePair> basicNameValuePairs = new ArrayList<>();
@@ -66,6 +74,7 @@ public class HttpClientUtil {
             httpPost.setEntity(urlEncodedFormEntity);
             HttpResponse response = client.execute(httpPost);
             result = EntityUtils.toString(response.getEntity());
+            logger.info(result);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -74,6 +83,8 @@ public class HttpClientUtil {
     }
 
     public static String postJson(String url,String json) {
+        logger.info(url);
+        logger.info(json);
         String result=null;
         HttpPost httpPost = new HttpPost(url);
         StringEntity entity = new StringEntity(json,"utf-8");
@@ -83,6 +94,7 @@ public class HttpClientUtil {
         try {
             response = client.execute(httpPost);
             result = EntityUtils.toString(response.getEntity());
+            logger.info(result);
         } catch (IOException e) {
             e.printStackTrace();
         }
